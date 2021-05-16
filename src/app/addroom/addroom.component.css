@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  color: #5C4284;
+}
+
+.example-form {
+  display: inline-block;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 5%;
+  padding: 20px;
+
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-full-width:nth-last-child(0) {
+  margin-bottom: 10px;
+}
+
+.button-row {
+  background-color: #5C4284;
+  color: #e9e7ec;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+}
+.button-row:hover{
+  background-color: #5C4284;
+  color: #f6eaf8;
+  text-align: center;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+
+
+}
+
+.mat-flat-button {
+  margin: 5px;
+}

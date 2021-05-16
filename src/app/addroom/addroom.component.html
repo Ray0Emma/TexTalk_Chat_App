@@ -1,0 +1,18 @@
+<div class="container">
+  <form class="example-form" [formGroup]="roomForm" (ngSubmit)="onFormSubmit(roomForm.value)">
+      <h2>Entez le nom de votre groupe</h2>
+      <mat-form-field class="example-full-width">
+        <mat-label>Le nom de groupe</mat-label>
+        <input matInput placeholder="Entez le nom de votre groupe" formControlName="roomname"
+                [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!roomForm.get('roomname').valid && roomForm.get('roomname').touched">Enterz le nom </span>
+        </mat-error>
+
+      </mat-form-field>
+      <div >
+        <button class="button-row" type="submit" [disabled]="!roomForm.valid" ><mat-icon>save</mat-icon></button>
+      </div>
+  </form>
+  <img src="assets\wave.svg"  >
+</div>

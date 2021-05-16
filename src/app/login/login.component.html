@@ -1,0 +1,19 @@
+
+
+<div class="container">
+  <form class="example-form" [formGroup]="loginForm" (ngSubmit)="onFormSubmit(loginForm.value)">
+      <h2> Entrez votre nom ici : </h2>
+      <mat-form-field class="example-full-width">
+        <mat-label> Nom </mat-label>
+        <input matInput placeholder="Entrer votre nom" formControlName="nickname"
+                [errorStateMatcher]="matcher">
+        <mat-error>
+          <span *ngIf="!loginForm.get('nickname').valid && loginForm.get('nickname').touched"> Entrez votre nom </span>
+        </mat-error>
+      </mat-form-field>
+      <div >
+          <button class="button-row" type="submit" [disabled]="!loginForm.valid" >Se Connecter</button>
+      </div>
+  </form>
+  <img src="assets\wave.svg"  >
+</div>
