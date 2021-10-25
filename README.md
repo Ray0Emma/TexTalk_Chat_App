@@ -1,6 +1,8 @@
 # TexTalk
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+Web application based on the concept of sending and receiving messages when two or more users have joined the same group. 
+
+TexTalk built and designed by [Farah](https://twitter.com/ahmadiF__). And it was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
 ## Development server
 
@@ -14,14 +16,20 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Tech Stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Client:** Bootstrap
 
-## Running end-to-end tests
+**Server:** Angular, firebase realtime database
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Pull Requests
 
-## Further help
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Authors
+
+- [Ahmadi Farah](https://twitter.com/ahmadiF__)
+
+## License
+
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
