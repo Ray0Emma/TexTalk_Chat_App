@@ -18,7 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Tech Stack
 
-**Client:** Bootstrap
+**Client:** Angular Material
 
 **Server:** Angular, firebase realtime database
 
