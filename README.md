@@ -4,6 +4,12 @@ Web application based on the concept of sending and receiving messages when two 
 
 TexTalk built and designed by [Farah](https://twitter.com/ahmadiF__). And it was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
+## Screenshots
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/70212296/138690410-59849de8-4066-42af-b80e-bd731e26b27c.png" alt="homePage">
+</p>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
